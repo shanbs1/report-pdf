@@ -1,5 +1,8 @@
 <?php
+// tcpdf file created by shan balakrishnan kerala for esay generation of reports from array generated from 
+//data fetched from database during 2012
 require_once(PATH_LIBS.'tcpdf/tcpdf.php');
+
 define(PAPERHEIGHT,210);//P:297,L:210
 
 class oTCPDF extends TCPDF
